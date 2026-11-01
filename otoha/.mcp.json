@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dsh-context": {
+      "command": "node",
+      "args": ["stdio.mjs"]
+    }
+  }
+}

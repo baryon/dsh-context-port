@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2023", "module": "esnext", "moduleResolution": "bundler", "lib": ["es2023", "dom"],
+    "strict": true, "noEmit": true, "skipLibCheck": true, "types": ["react", "react-dom"],
+    "allowImportingTsExtensions": true, "jsx": "react-jsx", "verbatimModuleSyntax": true, "erasableSyntaxOnly": true,
+    "paths": { "@modelcontextprotocol/ext-apps": ["../../Desktop/node_modules/@modelcontextprotocol/ext-apps/dist/src/app.d.ts"] }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

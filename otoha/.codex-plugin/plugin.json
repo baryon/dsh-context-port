@@ -1,0 +1,8 @@
+{
+  "name": "dsh-context",
+  "version": "0.1.1",
+  "description": "只读的对话上下文统计页面。",
+  "license": "Apache-2.0",
+  "interface": { "displayName": "对话上下文" },
+  "extensions": { "com.otohaai": { "pages": [{ "resourceURI": "ui://dsh-context/app.html" }] } }
+}

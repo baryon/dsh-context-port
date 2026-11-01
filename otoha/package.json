@@ -1,0 +1,9 @@
+{
+  "name": "dsh-context-otoha-port",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": { "build": "node build.mjs", "test": "node --test test/*.test.ts test/*.test.mjs", "typecheck": "tsc -p tsconfig.json" },
+  "dependencies": { "@modelcontextprotocol/ext-apps": "2.0.3", "react": "19.3.0", "react-dom": "19.3.0" }
+}
